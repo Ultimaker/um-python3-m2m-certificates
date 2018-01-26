@@ -10,7 +10,7 @@ init() {
 build() {
 	cd "${MODULE_PATH}" &&
 	python3 setup.py --command-packages=stdeb.command bdist_deb &&
-	cp deb_dist/python3-m2m_certificates*.deb "${SRC_PATH}/"
+	cp deb_dist/python3-m2m-certificates*.deb "${SRC_PATH}/"
 	cd "${SRC_PATH}"
 }
 

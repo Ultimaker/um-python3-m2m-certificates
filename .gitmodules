@@ -1,0 +1,3 @@
+[submodule "m2m_certificates"]
+	path = m2m_certificates
+	url = https://github.com/LoyVanBeek/m2m_certificates.git
